@@ -83,12 +83,12 @@ O pipeline segue a **Arquitetura Medalhão**, com cada camada representada por u
 
 | Notebook | Função |
 |---|---|
-| [`00 - Setup - Catálogo e Schemas`](notebook/00%20-%20Setup%20-%20Cat%C3%A1logo%20e%20Schemas.ipynb) | Criação do catálogo `ecommerce_br` e dos schemas bronze/silver/gold; criação do Volume `raw_files` |
-| [`01 - Bronze - Ingestão`](notebook/01%20-%20Bronze%20-%20Ingest%C3%A3o.ipynb) | Ingestão dos 9 CSVs como tabelas Delta cruas (lidas como texto), com metadados de controle |
-| [`02 - Silver - Limpeza e Padronização`](notebook/02%20-%20Silver%20-%20Limpeza%20e%20Padroniza%C3%A7%C3%A3o.ipynb) | Limpeza, tipagem e padronização por tabela (Bronze → Silver); tradução de categorias; agregações |
+| [`00 - Setup - Catálogo e Schemas`](notebook/00%20-%20Setup%20-%20Catálogo%20e%20Schemas.ipynb) | Criação do catálogo `ecommerce_br` e dos schemas bronze/silver/gold; criação do Volume `raw_files` |
+| [`01 - Bronze - Ingestão`](notebook/01%20-%20Bronze%20-%20Ingestão.ipynb) | Ingestão dos 9 CSVs como tabelas Delta cruas (lidas como texto), com metadados de controle |
+| [`02 - Silver - Limpeza e Padronização`](notebook/02%20-%20Silver%20-%20Limpeza%20e%20Padronização.ipynb) | Limpeza, tipagem e padronização por tabela (Bronze → Silver); tradução de categorias; agregações |
 | [`03 - Gold - Modelagem`](notebook/03%20-%20Gold%20-%20Modelagem.ipynb) | Modelagem dimensional (esquema estrela): construção do fato_vendas e das dimensões |
-| [`04 - Catálogo de Dados`](notebook/04%20-%20Cat%C3%A1logo%20de%20Dados.ipynb) | Documentação das tabelas e colunas Gold no Unity Catalog (comentários) |
-| [`05 - Análise`](notebook/05%20-%20An%C3%A1lise.ipynb) | Respostas às 5 perguntas de negócio (consultas SQL + visualizações matplotlib) |
+| [`04 - Catálogo de Dados`](notebook/04%20-%20Catálogo%20de%20Dados.ipynb) | Documentação das tabelas e colunas Gold no Unity Catalog (comentários) |
+| [`05 - Análise`](notebook/05%20-%20Análise.ipynb) | Respostas às 5 perguntas de negócio (consultas SQL + visualizações matplotlib) |
 
 ### Detalhes da ingestão Bronze
 
