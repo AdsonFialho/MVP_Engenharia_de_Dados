@@ -83,7 +83,7 @@ O pipeline segue a **Arquitetura Medalhão**, com cada camada representada por u
 
 | Notebook | Função |
 |---|---|
-| [`00 - Setup - Catálogo e Schemas`](https://github.com/AdsonFialho/MVP_Engenharia_de_Dados/blob/main/notebook/00%20-%20Setup%20-%20Cat%C3%A1logo%20e%20Schemas.ipynb) | Criação do catálogo `ecommerce_br` e dos schemas bronze/silver/gold; criação do Volume `raw_files` |
+| [`00 - Setup - Catálogo e Schemas`](https://github.com/AdsonFialho/MVP_Engenharia_de_Dados/blob/main/notebook/00%20-%20Setup%20-%20Catalogo%20e%20Schemas.ipynb) | Criação do catálogo `ecommerce_br` e dos schemas bronze/silver/gold; criação do Volume `raw_files` |
 | [`01 - Bronze - Ingestão`](https://github.com/AdsonFialho/MVP_Engenharia_de_Dados/blob/main/notebook/01%20-%20Bronze%20-%20Ingest%C3%A3o.ipynb) | Ingestão dos 9 CSVs como tabelas Delta cruas (lidas como texto), com metadados de controle |
 | [`02 - Silver - Limpeza e Padronização`](https://github.com/AdsonFialho/MVP_Engenharia_de_Dados/blob/main/notebook/02%20-%20Silver%20-%20Limpeza%20e%20Padroniza%C3%A7%C3%A3o.ipynb) | Limpeza, tipagem e padronização por tabela (Bronze → Silver); tradução de categorias; agregações |
 | [`03 - Gold - Modelagem`](https://github.com/AdsonFialho/MVP_Engenharia_de_Dados/blob/main/notebook/03%20-%20Gold%20-%20Modelagem.ipynb) | Modelagem dimensional (esquema estrela): construção do fato_vendas e das dimensões |
